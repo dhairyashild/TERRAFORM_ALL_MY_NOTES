@@ -1,5 +1,13 @@
+#   THESE ARE ALL RANDOM RESOURCE EXAMPLE GIVEN BELOW 
+#  DEVOPS NEED MOSTLY
+       1) random_id.log_id.hex                            --- s3 bucket name 
+       2) dev-${random_pet.instance_name.id}              --- for instance tag name
+      3) random_password.db_password.result --- RDS master password
 
 
+
+
+#################################################
 resource "random_id" "example_id" {
   byte_length = 8 # The number of random bytes to generate (determines the length of the hex string)
 }
