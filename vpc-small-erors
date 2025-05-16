@@ -2,8 +2,15 @@
          "${var.projectname}-${var.environment}-private-data-az2"    ="${var.projectname}-${var.env}-resource_shortform"
           ${   } =  interpolation karay he 2 lagat only
 
-2) mi kay add kelay he search karay 3# use kara khalche
-                                                 ###
+2) mi kay add kelay he search karay 3# use kara khalati
+
+3) vpc
+4) subnet--  
+       availability_zone       
+       map_public_ip_on_launch = true  
+5)  route table      = igw + rt + sub association                                
+         gateway_id
+         0.0.0.0/0
 ############## sequence to create whole vpc --ONLY REMEMBER THIS NO NOTEBOOK OR OTHER NOTES ###################################################################################
 1 vpc
 cidr_block           = var.vpc-cidr
