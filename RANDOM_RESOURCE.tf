@@ -1,7 +1,7 @@
 #   THESE ARE ALL RANDOM RESOURCE EXAMPLE GIVEN BELOW 
 #  DEVOPS NEED MOSTLY
-       1) random_id.log_id.hex                            --- s3 bucket name 
-       2) dev-${random_pet.instance_name.id}              --- for instance tag name
+       1) random_id.log_id.hex                            --- s3 bucket name --- remember id need hex  to fetch
+       2) dev-${random_pet.instance_name.id}              --- for instance tag name --- remember pet need id
       3) random_password.db_password.result --- RDS master password
 
 
